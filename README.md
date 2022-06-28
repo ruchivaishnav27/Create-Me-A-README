@@ -1,12 +1,12 @@
-# ProfessionalREADMEGenerator
+# Create Me A README
 
 ## Description
 
-This application allows one to write a README file for any project using Node.js.  No challenges were faced in creating this application.  In the future, I would like to make this application a little less tedious.
+This application allows one to create and write a README file for any project using Node.js.  No challenges were faced in creating this application.  In the future, I would like to make this application a little less tedious.
 
 ## Installation
 
-To use this application, one must first install Node.js, then they can follow along using this live link: 
+To use this application, one must first install Node.js.  They can then follow along using this link: 
 
 ## Usage
 
