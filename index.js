@@ -26,7 +26,86 @@ inquirer
 });
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+  {
+    type: 'input',
+    name: 'title',
+    message: 'Title of Project',
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+          console.log('Please enter a title!');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'what',
+    message: 'What is your Project about?',
+    validate: whatInput => {
+      if (whatInput) {
+        return true;
+      } else {
+          console.log('What is your Project about?');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'why',
+    message: 'Why did you create this Project?',
+    validate: whyInput => {
+      if (whyInput) {
+         return true;
+      } else {
+          console.log('Please enter a reason!');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'how',
+    message: 'How does your Project work?',
+    validate: howInput => {
+      if (howInput) {
+        return true;
+      } else {
+          console.log('How does your Project work?');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'How can I install your Project?',
+    validate: installationInput => {
+      if (installationInput) {
+        return true;
+      } else {
+          console.log('How can I install your Project?');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'How do I use your Project?',
+    validate: usageInput => {
+      if (usageInput) {
+        return true;
+      } else {
+          console.log('How do I use your Project?');
+        return false;
+      }
+    }
+  }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
