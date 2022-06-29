@@ -6,7 +6,7 @@ This application allows one to create and write a README file for any project us
 
 ## Installation
 
-To use this application, one must first install Node.js.  They can then follow along using this link: 
+To use this application, one must first install Node.js.
 
 ## Usage
 
